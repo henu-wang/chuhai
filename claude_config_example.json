@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["/完整路径/chuhai/dist/index.js"],
       "env": {
@@ -9,3 +9,20 @@
     }
   }
 }
+
+// 如果你已经有其他FMP MCP，配置应该是这样：
+// {
+//   "mcpServers": {
+//     "fmp": {
+//       "command": "...",
+//       "args": ["..."]
+//     },
+//     "fmp-chuhai": {
+//       "command": "node",
+//       "args": ["/完整路径/chuhai/dist/index.js"],
+//       "env": {
+//         "FMP_API_KEY": "N1TAoz9ns6c2nqxgTeD8p1CPqqngAIdN"
+//       }
+//     }
+//   }
+// }

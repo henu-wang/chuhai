@@ -70,7 +70,7 @@ explorer %APPDATA%\Claude\
 ```json
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["/Users/你的用户名/chuhai/dist/index.js"],
       "env": {
@@ -95,7 +95,7 @@ pwd
 ```json
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["C:\\Users\\你的用户名\\chuhai\\dist\\index.js"],
       "env": {
@@ -117,7 +117,7 @@ cd
 ```json
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["/home/你的用户名/chuhai/dist/index.js"],
       "env": {

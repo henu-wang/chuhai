@@ -70,7 +70,7 @@ chmod +x setup.sh
 ```json
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["/你的完整路径/chuhai/dist/index.js"],
       "env": {

@@ -216,7 +216,7 @@ npm start
 ```json
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["/path/to/chuhai/dist/index.js"],
       "env": {
@@ -226,6 +226,8 @@ npm start
   }
 }
 ```
+
+**注意**：如果你已经有其他FMP MCP，请查看 [COEXISTENCE.md](./COEXISTENCE.md) 了解如何配置多个MCP共存。
 
 ## 可用工具示例
 

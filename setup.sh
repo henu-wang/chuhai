@@ -74,7 +74,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     cat << EOF
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["$INDEX_PATH"],
       "env": {
@@ -99,7 +99,7 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     cat << EOF
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["$INDEX_PATH"],
       "env": {

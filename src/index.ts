@@ -43,7 +43,7 @@ const toolsMap = new Map(
 // Create MCP server
 const server = new Server(
   {
-    name: 'fmp-mcp-server',
+    name: 'fmp-chuhai-server',
     version: '1.0.0',
   },
   {
@@ -89,7 +89,8 @@ async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
 
-  console.error('FMP MCP Server running on stdio');
+  console.error('FMP Chuhai MCP Server running on stdio');
+  console.error(`Server Name: fmp-chuhai-server (区分于其他FMP MCP)`);
   console.error(`Loaded ${toolsMap.size} tools`);
   console.error('API Key:', API_KEY?.substring(0, 8) + '...');
   console.error('Base URL:', BASE_URL);

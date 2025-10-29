@@ -64,7 +64,7 @@ Write-Host ""
 $config = @"
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["$($indexPath -replace '\\', '\\')"],
       "env": {
@@ -73,6 +73,9 @@ $config = @"
     }
   }
 }
+
+注意：如果你已经有其他FMP MCP，请保留原有配置，将此配置添加到同一个文件中。
+查看 COEXISTENCE.md 了解如何与其他FMP MCP共存。
 "@
 
 Write-Host $config -ForegroundColor Green

@@ -45,7 +45,7 @@ cd chuhai
 ```json
 {
   "mcpServers": {
-    "fmp": {
+    "fmp-chuhai": {
       "command": "node",
       "args": ["/你的路径/chuhai/dist/index.js"],
       "env": {
