@@ -2,6 +2,8 @@
 
 完整的Financial Modeling Prep (FMP) API的Model Context Protocol (MCP)服务器实现。提供150+个工具，涵盖所有FMP API功能。
 
+> 🌟 **新用户？从这里开始** → **[START_HERE.md](./START_HERE.md)** | 📖 **项目总结** → **[PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md)**
+
 ## 🚀 快速开始
 
 **想立即使用？** 查看 **[快速开始指南 (QUICKSTART.md)](./QUICKSTART.md)** - 5分钟完成安装！
