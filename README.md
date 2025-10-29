@@ -2,6 +2,36 @@
 
 完整的Financial Modeling Prep (FMP) API的Model Context Protocol (MCP)服务器实现。提供150+个工具，涵盖所有FMP API功能。
 
+## 🚀 快速开始
+
+**想立即使用？** 查看 **[快速开始指南 (QUICKSTART.md)](./QUICKSTART.md)** - 5分钟完成安装！
+
+或者使用自动安装脚本：
+
+```bash
+# MacOS / Linux
+git clone https://github.com/henu-wang/chuhai.git
+cd chuhai
+chmod +x setup.sh && ./setup.sh
+
+# Windows (PowerShell)
+git clone https://github.com/henu-wang/chuhai.git
+cd chuhai
+.\setup.ps1
+```
+
+然后按照脚本输出的指示配置Claude Desktop，就完成了！
+
+---
+
+## 📚 完整文档
+
+- **[QUICKSTART.md](./QUICKSTART.md)** - 5分钟快速开始
+- **[INSTALL.md](./INSTALL.md)** - 详细安装指南和故障排除
+- **[TOOLS.md](./TOOLS.md)** - 所有153个工具的完整参考
+
+---
+
 ## 功能特性
 
 这个MCP服务器提供对FMP API所有主要功能的访问，包括：
